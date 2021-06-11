@@ -14,7 +14,9 @@ import "./Home.css";
     
                 </ul>
             </div>
-            <img src="https://www.u-wah.com/images/career.png"></img>
+            <div className="imgCont">
+            <img src="https://previews.123rf.com/images/artitcom/artitcom1807/artitcom180700014/104840328-creative-illustration-of-business-infographics-rise-career-to-success-finance-opportunity-concept-wi.jpg"></img>
+            </div>
             </div>
             </div>
             
