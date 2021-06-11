@@ -1,0 +1,49 @@
+/* 
+.container{
+    width: 80%;
+    margin:auto ;
+    overflow: hidden;
+}
+.navbar ul{
+    padding: 0;
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+
+} */
+.container{
+    background: url("https://previews.123rf.com/images/artitcom/artitcom1807/artitcom180700014/104840328-creative-illustration-of-business-infographics-rise-career-to-success-finance-opportunity-concept-wi.jpg") no-repeat center/cover;
+}
+.navbar {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: #eee;
+    position: fixed;
+  }
+.navbar ul {
+    padding: 0;
+    margin: 0;
+  }
+.navbar li {
+    display: inline;
+    float: left;
+  }
+.navbar a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    text-decoration: none;
+  }
+.navbar li:hover {
+    background-color: #444;
+  }
