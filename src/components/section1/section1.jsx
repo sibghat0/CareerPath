@@ -6,7 +6,7 @@ export default class Section1 extends Component {
   render() {
     return (
       <div className="imgCont">
-        <img src={img} alt="img"></img>
+        <img src={img} alt="img" />
       </div>
     );
   }
