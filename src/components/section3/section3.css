@@ -1,35 +1,37 @@
-.social{
-    background: whitesmoke;
-    color: #1071cc;
-    width: 100%;
-    height: 100%;
-   
+.social {
+  color: #1071cc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
 }
-.socialText{
-    text-align: center;
-    font-size: large;
-  
+.socialText {
+  padding: 2rem;
 }
-.socialImage{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: black;
-    height: 100%;
+
+.socialText h1 {
+  font-size: 35px;
+}
+
+.socialImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  margin: 2rem 2rem 3rem 2rem;
 }
 
 .cricket {
-   width: 10%;
-   background-color: black;
-   height: 200px;
-   margin: 0 0.5rem 0 0.5rem;
-   margin-left: 15rem;
-
+  object-fit: contain;
 }
-.cricket img{
-    width: 300px;
-    height: 300px;
-    border-radius: 1rem;
+.cricket img {
+  width: 300px;
+  height: 350px;
+  border-radius: 1rem;
 }
