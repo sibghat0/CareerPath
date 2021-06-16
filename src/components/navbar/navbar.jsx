@@ -4,7 +4,7 @@ import "./navbar.css";
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
+      <div className="navbar colorchange">
         <div className="title">
           <h4>Title</h4>
         </div>
@@ -14,10 +14,13 @@ export default class Navbar extends Component {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">Services</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#">Feed</a>
+            </li>
+            <li>
+              <a href="#">About</a>
             </li>
           </ul>
         </div>

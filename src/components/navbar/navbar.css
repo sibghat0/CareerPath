@@ -3,12 +3,23 @@
   width: 100%;
   background-color: #333;
   color: #eee;
-  position: fixed;
+  position: sticky;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s;
+  top: 0;
+  padding: 0 3rem;
+  z-index: 999;
 }
+
+/* .navbar.colorchange {
+   background: rgba(255, 255, 255, 0.2) !important; 
+  transition: background-color 0.5s;
+  backdrop-filter: blur(25px) !important;
+  box-shadow: 5px 0 8px rgba(0, 0, 0, 0.4);
+} */
 
 .navbar .title {
   width: 25%;
@@ -20,11 +31,12 @@
 }
 
 .navbar .other {
-  width: 70%;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  padding-left: 1.5rem;
+  /* padding-left: 2rem; */
+  margin-right: 3rem;
 }
 
 .navbar .other ul {
