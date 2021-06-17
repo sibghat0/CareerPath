@@ -15,18 +15,18 @@ export default class Section4 extends Component {
                  <div className="name">
                  <img src={img1} alt="img"></img>
                  <h4>APJ ABDUL KALAM</h4></div>
-                 <p>Winners are not those who never fail but those who never quit.</p>
+                 <p>" Winners are not those who never fail but those who never quit. "</p>
                  </div>
                  <div className="kkkg">
                  <div className="name">
                  <img src={img2} alt="img"></img>
                  <h4>Rabindranath Tagore</h4></div>
-                 <p>Take risks in your life. If you win,you can lead.If you lose,you can guide.</p></div>
+                 <p>" Take risks in your life. If you win,you can lead.If you lose,you can guide. "</p></div>
                  <div className="kkkg">
                  <div className="name">
                  <img src={img3} alt="img"></img>
                  <h4>Swami Vivekananda</h4></div>
-                 <p>You can't cross the sea by merely standing and staring at the water.</p></div>
+                 <p>" You can't cross the sea by merely standing and staring at the water. "</p></div>
                  </div>
                </div>
         )
