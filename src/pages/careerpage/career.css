@@ -1,0 +1,126 @@
+.cp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cp .choose {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: grey;
+}
+.cp .choose img {
+  height: 50px;
+  width: 50px;
+  margin: 0.3rem 0.7rem;
+}
+
+.choose h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cp .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.cp .search img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  position: absolute;
+  right: 10%;
+}
+
+.cp .search input {
+  height: 30px;
+  border-radius: 15px;
+}
+
+.cp .window {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(170, 170, 170);
+  width: 100%;
+}
+.cp .window img {
+  height: 450px;
+  width: 400px;
+}
+
+.cp .window p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cp .options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  margin-top: 3rem;
+}
+
+.cp .options .xxx {
+  object-fit: cover;
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+  width: 350px;
+  height: 300px;
+}
+.cp .options .xxx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.cp .options .xxx:hover img {
+  filter: blur(0px);
+}
+
+.cp .options .xxx .content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.cp .options .xxx .content p {
+  font-size: 30px;
+  padding: 1rem 0;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.7px 1px #000;
+  width: 40%;
+  user-select: none;
+  text-transform: uppercase;
+}
