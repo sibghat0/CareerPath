@@ -49,7 +49,8 @@
 
 .cp .search input {
   height: 30px;
-  border-radius: 15px;
+  border-radius: 5px;
+  outline: none;
 }
 
 .cp .window {
@@ -118,12 +119,12 @@
 }
 
 .cp .options .xxx .content p {
-  font-size: 30px;
+  font-size: 25px;
   padding: 1rem 0;
   font-weight: bold;
   color: #fff;
   text-shadow: 0.7px 1px #000;
-  width: 40%;
+  width: 100%;
   user-select: none;
   text-transform: uppercase;
 }
