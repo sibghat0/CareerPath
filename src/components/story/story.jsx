@@ -46,32 +46,6 @@ export default class Story extends Component {
     };
   }
 
-  // handleSelectAdd = (e) => {
-  //   if (this.state.itemCounter < this.props.maxItems) {
-  //     this.setState(
-  //       {
-  //         [e.target.id]: this.state[e.target.id] + 1,
-  //       },
-  //       () => {
-  //         this.props.handleItemNo(this.state.itemCounter);
-  //       }
-  //     );
-  //   }
-  // };
-
-  // handleSelectsub = (e) => {
-  //   if (this.state[e.target.id] > this.props.minItems) {
-  //     this.setState(
-  //       {
-  //         [e.target.id]: this.state[e.target.id] - 1,
-  //       },
-  //       () => {
-  //         this.props.handleItemNo(this.state.itemCounter);
-  //       }
-  //     );
-  //   }
-  // };
-
   render() {
     return (
       <div className="section">

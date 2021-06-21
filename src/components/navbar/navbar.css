@@ -10,7 +10,6 @@
   align-items: center;
   transition: background-color 0.5s;
   top: 0;
-  padding: 0 3rem;
   z-index: 999;
 }
 
@@ -23,11 +22,16 @@
 
 .navbar .title {
   width: 25%;
+  padding-left: 2rem;
 }
 .navbar .title h4 {
   padding: 0.5rem;
   font-size: 19px;
   font-weight: bold;
+}
+
+.navbar .title h4 a {
+  color: #eee;
 }
 
 .navbar .other {

@@ -6,15 +6,17 @@ export default class Navbar extends Component {
     return (
       <div className="navbar colorchange">
         <div className="title">
-          <h4>Career Path</h4>
+          <h4>
+            <a href="/">Career Path</a>
+          </h4>
         </div>
         <div className="other">
           <ul className="links">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Career</a>
+              <a href="/career">Career</a>
             </li>
             <li>
               <a href="#">Feed</a>

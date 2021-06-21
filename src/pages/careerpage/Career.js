@@ -65,12 +65,14 @@ export default class Section11 extends Component {
         <div className="options">
           {this.state.data.map((e) => {
             return (
-              <div className="xxx">
-                <img src={e.img} alt="img" />
-                <div className="content">
-                  <p>{e.opt}</p>
+              <a href="/career/:id">
+                <div className="xxx">
+                  <img src={e.img} alt="img" />
+                  <div className="content">
+                    <p>{e.opt}</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>
