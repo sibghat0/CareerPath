@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./career.css";
 import cap from "../../assets/graduation-cap.png";
+import firebase from "firebase";
 import search1 from "../../assets/zoom (1).png";
 import boy from "../../assets/Blogging-bro.1c32fe35 (1).svg";
 import img1 from "../../assets/cricketsec-3.jpg";
@@ -11,34 +12,54 @@ export default class Section11 extends Component {
     super();
     this.state = {
       data: [
-        {
-          img: img1,
-          opt: "cricket",
-        },
-        {
-          img: img2,
-          opt: "photography",
-        },
-        {
-          img: img3,
-          opt: "art and creation",
-        },
+        // {
+        //   img: img1,
+        //   opt: "cricket",
+        // },
+        // {
+        //   img: img2,
+        //   opt: "photography",
+        // },
+        // {
+        //   img: img3,
+        //   opt: "art and creation",
+        // },
       ],
       search: "",
+      loading: true,
     };
   }
 
-  handleChange = (e) => {
-    this.setState({
-      search: e.target.value,
-    });
-  };
+  componentDidMount() {
+    firebase
+      .firestore()
+      .collection("career")
+      .get()
+      .then((snap) => {
+        var temp = [];
+        snap.forEach((doc) => {
+          const data = doc.data();
+          data.id = doc.id;
+          temp.push(data);
+        });
+        this.setState({
+          data: temp,
+          loading: false,
+        });
+      });
+  }
+
+  // handleChange = (e) => {
+  //   this.setState({
+  //     search: e.target.value,
+  //   });
+  // };
 
   render() {
-    const { data, search } = this.state;
-    const searchFilter = data.filter((data) =>
-      data.opt.toLocaleLowerCase().includes(search.toLocaleLowerCase())
-    );
+    // const { data, search } = this.state;
+    // const searchFilter = data.filter((data) =>
+    //   data.opt.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+    // );
     return (
       <div className="cp">
         <div className="choose">
@@ -65,7 +86,7 @@ export default class Section11 extends Component {
         <div className="options">
           {this.state.data.map((e) => {
             return (
-              <a href="/career/:id">
+              <a href={`/career/${e.id}`}>
                 <div className="xxx">
                   <img src={e.img} alt="img" />
                   <div className="content">

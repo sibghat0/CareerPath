@@ -27,7 +27,6 @@
 }
 
 .kkkg {
-  object-fit: contain;
   background-color: grey;
   width: 350px;
   height: 400px;
@@ -39,6 +38,7 @@
   width: 100px;
   border-radius: 50%;
   margin: 5px;
+  object-fit: cover;
 }
 .name {
   display: flex;
