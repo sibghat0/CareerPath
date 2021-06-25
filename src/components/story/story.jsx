@@ -8,54 +8,7 @@ export default class Story extends Component {
     super();
 
     this.state = {
-      data: [
-        // {
-        //   id: 1,
-        //   name: "Sachin",
-        //   image: img1,
-        //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, at error sapiente blanditiis quibusdam assumenda sit nihil molestiae veritatis voluptatum dicta. Maxime explicabo fugiat pariatur exercitationem aperiam ipsum aliquid assumenda?sidduancsoc snsovnsiubsvovnziu svbajvncbavnasv avnasoj;vivnavno oaovnoasnvsoanv asvnosavsoivnosavnsaoivnanvvoianv oavnosvsoiavnsoanvc Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, at error sapiente blanditiis quibusdam assumenda sit nihil molestiae veritatis voluptatum dicta. Maxime explicabo fugiat pariatur exercitationem aperiam ipsum aliquid assumenda?sidduancsoc snsovnsiubsvovnziu svbajvncbavnasv avnasoj;vivnavno oaovnoasnvsoanv asvnosavsoivnosavnsaoivnanvvoianv oavnosvsoiavnsoanvc",
-        // },
-        // {
-        //   id: 2,
-        //   name: "Sachin",
-        //   image: img1,
-        //   // image:
-        //   //   "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc.ndtvimg.com%2F2021-03%2Fu0812bl8_sachin-tendulkar-afp_625x300_27_March_21.jpg&imgrefurl=https%3A%2F%2Fsports.ndtv.com%2Fcricket%2Fsachin-tendulkar-tests-positive-for-coronavirus-says-quarantined-myself-at-home-2400041&tbnid=xetlqhXhyg5-rM&vet=12ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ..i&docid=c7mjiCM9EM_iwM&w=806&h=605&q=sachin%20tendulkar&ved=2ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ",
-        //   text: "lorem2",
-        // },
-        // {
-        //   id: 3,
-        //   name: "Sachin",
-        //   image: img1,
-        //   // image:
-        //   //   "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc.ndtvimg.com%2F2021-03%2Fu0812bl8_sachin-tendulkar-afp_625x300_27_March_21.jpg&imgrefurl=https%3A%2F%2Fsports.ndtv.com%2Fcricket%2Fsachin-tendulkar-tests-positive-for-coronavirus-says-quarantined-myself-at-home-2400041&tbnid=xetlqhXhyg5-rM&vet=12ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ..i&docid=c7mjiCM9EM_iwM&w=806&h=605&q=sachin%20tendulkar&ved=2ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ",
-        //   text: "lorem3",
-        // },
-        // {
-        //   id: 4,
-        //   name: "Sachin",
-        //   image: img1,
-        //   // image:
-        //   //   "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc.ndtvimg.com%2F2021-03%2Fu0812bl8_sachin-tendulkar-afp_625x300_27_March_21.jpg&imgrefurl=https%3A%2F%2Fsports.ndtv.com%2Fcricket%2Fsachin-tendulkar-tests-positive-for-coronavirus-says-quarantined-myself-at-home-2400041&tbnid=xetlqhXhyg5-rM&vet=12ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ..i&docid=c7mjiCM9EM_iwM&w=806&h=605&q=sachin%20tendulkar&ved=2ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ",
-        //   text: "lorem4",
-        // },
-        // {
-        //   id: 5,
-        //   name: "Sachin",
-        //   image: img1,
-        //   // image:
-        //   //   "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc.ndtvimg.com%2F2021-03%2Fu0812bl8_sachin-tendulkar-afp_625x300_27_March_21.jpg&imgrefurl=https%3A%2F%2Fsports.ndtv.com%2Fcricket%2Fsachin-tendulkar-tests-positive-for-coronavirus-says-quarantined-myself-at-home-2400041&tbnid=xetlqhXhyg5-rM&vet=12ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ..i&docid=c7mjiCM9EM_iwM&w=806&h=605&q=sachin%20tendulkar&ved=2ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ",
-        //   text: "lorem5",
-        // },
-        // {
-        //   id: 6,
-        //   name: "Sachin",
-        //   image: img1,
-        //   // image:
-        //   //   "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc.ndtvimg.com%2F2021-03%2Fu0812bl8_sachin-tendulkar-afp_625x300_27_March_21.jpg&imgrefurl=https%3A%2F%2Fsports.ndtv.com%2Fcricket%2Fsachin-tendulkar-tests-positive-for-coronavirus-says-quarantined-myself-at-home-2400041&tbnid=xetlqhXhyg5-rM&vet=12ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ..i&docid=c7mjiCM9EM_iwM&w=806&h=605&q=sachin%20tendulkar&ved=2ahUKEwj294WY8aHxAhWphEsFHVH3D-wQMygHegUIARCNAQ",
-        //   text: "lorem6",
-        // },
-      ],
+      data: [],
       tab: 0,
       loading: true,
     };
