@@ -91,9 +91,9 @@ export default class Story extends Component {
               return (
                 <div className="slide">
                   <img src={i.image} alt="img" />
-                  <div className="quote-icon">
+                  {/* <div className="quote-icon">
                     <FaQuoteRight />
-                  </div>
+                  </div> */}
                   <h3>{i.name}</h3>
                   <p>{i.text}</p>
                   <div className="swipe">
