@@ -98,6 +98,7 @@ export default class Story extends Component {
                   <p>
                     {i.text}
                     <br />
+                    <br />
                     {i.text2}
                   </p>
                   <div className="swipe">
