@@ -95,7 +95,11 @@ export default class Story extends Component {
                     <FaQuoteRight />
                   </div> */}
                   <h3>{i.name}</h3>
-                  <p>{i.text}</p>
+                  <p>
+                    {i.text}
+                    <br />
+                    {i.text2}
+                  </p>
                   <div className="swipe">
                     <button
                       className="prev-btn"
