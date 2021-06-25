@@ -19,10 +19,10 @@ export default class Navbar extends Component {
               <a href="/career">Career</a>
             </li>
             <li>
-              <a href="#">Feed</a>
+              <a href="/feed">Feed</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="/feed">About</a>
             </li>
           </ul>
         </div>
