@@ -84,10 +84,12 @@ export default class Section11 extends Component {
             </div>
             <div className="window">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                quas, officiis a omnis vitae cumque libero possimus saepe
-                inventore. Maiores amet rem, veniam dolores officia voluptate
-                sequi. Dolores, mollitia cum!
+                Almost everyone needs a role model, irrespective of what career
+                field one chooses. But how do you choose a role model? Is it
+                something that just comes to you when you see their work or is
+                it a conscious choice based on variables? No one exactly knows
+                that; But, we are here to help make that process a tad bit
+                easier for you.
               </p>
               <img src={boy} alt="img" />
             </div>

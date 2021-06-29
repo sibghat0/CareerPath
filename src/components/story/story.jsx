@@ -30,6 +30,7 @@ export default class Story extends Component {
   render() {
     return (
       <div className="section">
+        <h1>Our Achievers</h1>
         <div className="content">
           <div
             className="content2"

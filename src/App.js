@@ -7,6 +7,7 @@ import Navbar from "../src/components/navbar/navbar";
 import Career from "./pages/careerpage/career";
 import Story from "../src/components/story/story";
 import Soon from "./components/soon/soon";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/career/:id" component={Story} />
         <Route exact path="/feed" component={Soon} />
       </Switch>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .social {
-  color: #1071cc;
+  color: #fff;
   width: 100%;
   height: 100%;
   display: flex;
@@ -26,12 +26,57 @@
   margin: 2rem 2rem 4rem 2rem;
 }
 
-.cricket {
-  width: 20%;
+.socialImage a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 2rem 2rem 4rem 2rem;
 }
-.cricket img {
-  width: 300px;
-  height: 350px;
-  border-radius: 1rem;
+
+.social .socialImage .xxx {
   object-fit: cover;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+  width: 350px;
+  height: 360px;
+  z-index: 0;
+}
+.social .socialImage .xxx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.social .socialImage .xxx:hover img {
+  filter: blur(0px);
+}
+
+.social .socialImage .xxx .content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.social .socialImage .xxx .content p {
+  font-size: 25px;
+  padding: 1rem 0;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0.7px 1px #000;
+  width: 100%;
+  user-select: none;
+  text-transform: uppercase;
 }
