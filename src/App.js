@@ -4,7 +4,7 @@ import { Switch, Route, useLocation } from "react-router-dom";
 import Home from "./pages/homepage/Home";
 import "./pages/homepage/Home.css";
 import Navbar from "../src/components/navbar/navbar";
-import Career from "./pages/careerpage/career";
+import Career from "./pages/careerpage/Career";
 import Story from "../src/components/story/story";
 import Soon from "./components/soon/soon";
 function App() {
