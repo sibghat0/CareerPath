@@ -7,7 +7,7 @@ import Lottie from "react-lottie";
 import loader from "../../loader/lf30_editor_v1fleg6c.json";
 import boy from "../../assets/Blogging-bro.1c32fe35 (1).svg";
 
-export default class Section11 extends Component {
+export default class Career extends Component {
   constructor() {
     super();
     this.state = {
