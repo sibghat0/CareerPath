@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import firebase from "firebase";
-import "./story.css";
-import img1 from "../../assets/apj.jpg";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
+import React, { Component } from 'react';
+import firebase from 'firebase';
+import './story.css';
+import img1 from '../../assets/apj.jpg';
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 export default class Story extends Component {
   constructor() {
     super();
@@ -17,7 +17,7 @@ export default class Story extends Component {
   componentDidMount() {
     firebase
       .firestore()
-      .collection("career")
+      .collection('career')
       .doc(this.props.match.params.id)
       .onSnapshot((doc) => {
         this.setState({

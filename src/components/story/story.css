@@ -21,7 +21,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 40%;
+  width: 45%;
   flex-direction: column;
   background-image: linear-gradient(to bottom, black, white);
   /* position: relative; */

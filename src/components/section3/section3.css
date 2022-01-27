@@ -56,22 +56,24 @@
   position: absolute;
   z-index: -1;
   filter: blur(4px);
+  transition: 1s;
 }
 
 .social .socialImage .xxx:hover img {
   filter: blur(0px);
+  transition: 1s;
 }
 
 .social .socialImage .xxx .content {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  align-items: center;
+  height: 100%;
 }
 
 .social .socialImage .xxx .content p {
-  font-size: 25px;
+  font-size: 28px;
   padding: 1rem 0;
   font-weight: bold;
   color: #fff;
@@ -79,4 +81,10 @@
   width: 100%;
   user-select: none;
   text-transform: uppercase;
+  transition: 1s;
+}
+
+.social .socialImage .xxx:hover .content p {
+  filter: blur(1.78px);
+  transition: 1s;
 }
