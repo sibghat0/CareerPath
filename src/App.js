@@ -1,17 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Switch, Route, useLocation } from "react-router-dom";
-import Home from "./pages/homepage/Home";
-import "./pages/homepage/Home.css";
-import Navbar from "../src/components/navbar/navbar";
-import Career from "./pages/careerpage/Career";
-import Story from "../src/components/story/story";
-import Soon from "./components/soon/soon";
-import Footer from "./components/Footer/Footer";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
+import Home from './pages/homepage/Home';
+import './pages/homepage/Home.css';
+// import Navbar from "../src/components/navbar/navbar";
+import Career from './pages/careerpage/Career';
+import Story from '../src/components/story/story';
+import Soon from './components/soon/soon';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/career" component={Career} />

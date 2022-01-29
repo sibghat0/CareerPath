@@ -20,7 +20,7 @@
 
 .footer .flex-container .container-1 {
   color: grey;
-  width: 60%;
+  width: 80%;
   margin-bottom: 5px;
   height: 70%;
 }
@@ -102,7 +102,7 @@
 }
 
 .footer .flex-container .container-2 {
-  width: 40%;
+  width: 10%;
 }
 
 .footer .flex-container .container-2 .label {
@@ -173,13 +173,17 @@
   text-align: center;
 }
 
+.footer .copyright p a {
+  margin-left: 0.5rem;
+}
+
 @media (max-width: 1024px) {
   .footer {
-    height: 40vh;
+    height: 70vh;
   }
 
   .footer .flex-container .container-1 .company-terms {
-    width: 90%;
+    width: 100%;
   }
 
   .footer .flex-container .container-1 .company-terms .company-items h3 {
@@ -196,7 +200,7 @@
   .footer {
     width: 100%;
     border-top-left-radius: 0;
-    height: 50vh;
+    height: 55vh;
   }
 
   .footer .flex-container .container-1 .marfit-detail img {
@@ -244,9 +248,8 @@
     flex-direction: column;
   }
 
-  .footer .flex-container .container-1,
-  .footer .flex-container .container-2 {
-    width: 100%;
+  .footer .flex-container .container-1 {
+    width: 95%;
     margin-bottom: 20px;
   }
 
@@ -261,7 +264,9 @@
   }
 
   .footer .flex-container .container-1 .company-terms {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
   }
 
   .footer .flex-container .container-1 .company-terms .company-items {

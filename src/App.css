@@ -14,11 +14,15 @@ a {
 
 ::-webkit-scrollbar {
   width: 5px;
-  height: 5px;
-  background-color: transparent;
+  border: 2px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: rgb(255, 205, 202);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #8b8a88;
-  border-radius: 5px;
+  border-radius: 0;
+  background: #4b4b4b;
 }

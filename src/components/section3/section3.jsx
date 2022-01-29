@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import img1 from "../../assets/cricketsec-3.jpg";
-import img2 from "../../assets/phtosec-3.jpg";
-import img3 from "../../assets/fdsec-3.jpg";
-import "./section3.css";
+import React, { Component } from 'react';
+import img1 from '../../assets/cricketsec-3.jpg';
+import img2 from '../../assets/phtosec-3.jpg';
+import img3 from '../../assets/fdsec-3.jpg';
+import './section3.css';
 export default class Section3 extends Component {
   render() {
     return (
       <div className="social">
-        <div className="socialText">
+        <div className="socialText1">
           <h1>CHOOSE YOUR PATH</h1>
         </div>
         <div className="socialImage">

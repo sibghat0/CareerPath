@@ -1,6 +1,6 @@
-import React from "react";
-import "./Footer.css";
-import logo from "../../assets/logo.png";
+import React from 'react';
+import './Footer.css';
+import logo from '../../assets/logo.png';
 
 export default class Footer extends React.Component {
   render() {
@@ -80,8 +80,8 @@ export default class Footer extends React.Component {
         </div>
         <div className="copyright">
           <p>
-            &copy; Copyright 2021 . All rights reserved | Powered by{" "}
-            <a style={{ color: "#FC864D" }} href="#" target="_blank">
+            &copy; Copyright 2021. All rights reserved | Powered by{' '}
+            <a style={{ color: '#FC864D' }} href="#" target="_blank">
               Career Path
             </a>
           </p>
