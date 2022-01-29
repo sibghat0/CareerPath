@@ -37,12 +37,12 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  /* margin: 2rem 2rem 4rem 2rem; */
+  margin: 2rem 2rem 4rem 2rem;
 }
 
 .social .socialImage .xxx {
   object-fit: cover;
-  margin-left: 1rem;
+  margin-left: 3.5rem;
   margin-bottom: 4rem;
   border-radius: 20px;
   overflow: hidden;
@@ -105,14 +105,14 @@
   }
 } */
 
-@media (max-width: 1140px) {
+@media (max-width: 1240px) {
   .socialImage a {
     justify-content: space-between;
     margin: 1rem 4rem;
   }
 }
 
-@media (max-width: 838px) {
+@media (max-width: 903px) {
   .socialImage a {
     justify-content: center;
     margin: 0rem 4rem;
